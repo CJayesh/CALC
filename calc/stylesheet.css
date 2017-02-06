@@ -1,0 +1,11 @@
+/* CSS Document */
+input[type=text]{
+	border-color:#333;
+	font-family:inherit;
+	font-size:40px;
+	color:#333;
+	text-align:right;
+	text-shadow:inherit;
+}
+
+table { box-shadow: 1px 1px 1px #999; }

@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>calcpsd</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body bgcolor="#010101" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<div align="center"><br><br><br>
+<FORM name="keypad">
+<table id="Table_01" width="452" height="480" border="0" cellpadding="0" cellspacing="0">
+	<tr bgcolor="#333333">
+		<th width="452" height="82" colspan="5"><input type="text" name="output" size="17" readonly></th>
+	</tr>
+	<tr>
+		<td>
+			<input type="image" src="images/7.gif" onClick="keypad.output.value+='7'; return false; " />
+            </td>
+        <td>
+			<input type="image" src="images/8.gif" onClick="keypad.output.value+='8' ; return false;" ></td>
+		<td>
+			<input type="image" src="images/9.gif" onClick="keypad.output.value+='9'; return false;"></td>
+		<td>
+			<input type="image" src="images/division.gif" onClick="keypad.output.value+='/'; return false;"></td>
+		<td rowspan="4">
+			<input type="image" src="images/clear.gif" onClick="keypad.output.value=''"></td>
+	</tr>
+	<tr>
+		<td>
+			<input type="image" src="images/4.gif" onClick="keypad.output.value+='4'; return false;"></td>
+		<td>
+			<input type="image" src="images/5.gif" onClick="keypad.output.value+='5'; return false;"></td>
+		<td>
+			<input type="image" src="images/6.gif" onClick="keypad.output.value+='6'; return false;"></td>
+		<td>
+			<input type="image" src="images/multi.gif" onClick="keypad.output.value+='*'; return false;"></td>
+	</tr>
+	<tr>
+		<td>
+			<input type="image" src="images/1.gif" onClick="keypad.output.value+='1'; return false;"></td>
+		<td>
+			<input type="image" src="images/2.gif" onClick="keypad.output.value+='2'; return false;"></td>
+		<td>
+			<input type="image" src="images/3.gif" onClick="keypad.output.value+='3'; return false;"></td>
+		<td>
+			<input type="image" src="images/add.gif" onClick="keypad.output.value+='+'; return false;"></td>
+	</tr>
+	<tr>
+		<td>
+			<input type="image" src="images/..gif" onClick="keypad.output.value+='.'; return false;"></td>
+		<td>
+			<input type="image" src="images/0.gif" onClick="keypad.output.value+='0'; return false;"></td>
+		<td>
+			<input type="image" src="images/equals.gif" onClick="keypad.output.value=eval(keypad.output.value); return false;"></td>
+		<td>
+			<input type="image" src="images/minus.gif" onClick="keypad.output.value+='-'; return false;"></td>
+	</tr>
+</table>
+</FORM>
+<br>
+</div>
+</body>
+</html>
